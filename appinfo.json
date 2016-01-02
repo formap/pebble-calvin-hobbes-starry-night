@@ -1,0 +1,26 @@
+{
+  "uuid": "df802ada-2e81-4a7e-8a1e-80cfd1c0cbe8",
+  "shortName": "pebble-calvin-hobbes",
+  "longName": "pebble-calvin-hobbes",
+  "companyName": "Florencia Tarditti",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND",
+        "file": "images/calvin_hobbes.png"
+      },
+      {
+        "type": "png-trans",
+        "name": "IMAGE_CHARGING",
+        "file": "images/bolt.png"
+      }
+    ]
+  }
+}
